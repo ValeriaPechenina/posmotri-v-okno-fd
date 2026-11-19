@@ -87,10 +87,10 @@ ol {
   display: flex;
   align-items: center;
   width: fit-content;
-
+  cursor: pointer;
 }
 
-input[type="text"] {
+input {
   border-bottom: 1px solid #fff;
   border-top: 1px solid #fff;
   border-right: transparent;
@@ -144,7 +144,6 @@ input:focus {
 
 .search-form__label-text {
   padding-left: 5px;
-  cursor: pointer;
 }
 
 .search-form__checkbox-list {
@@ -265,8 +264,8 @@ input:focus {
   font-size: 18px;
   line-height: 90%;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
